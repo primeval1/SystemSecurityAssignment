@@ -32,7 +32,7 @@ class System{
                     this.msg.addSuccess('loggedin','You have successfully logged in');
                     this.user_logged_in  = true;
                     this.user = data.type ==='owner'? new Owner(data.id): new Renter(data.id);
-                    url = url+'?'
+                    url = url+'?';
                     router.push({
                         name:data.type ==='owner'? 'owner':'renter',
                         params:{id:data.id}

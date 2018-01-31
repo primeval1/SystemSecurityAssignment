@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
             break;
         case 'login':
-            login($_POST['userna    me'], $_POST['password']);
+            login($_POST['username'], $_POST['password']);
             break;
     }
 

@@ -10,8 +10,9 @@
  * @type {string}
  */
 
-let url = "https://localhost/api/private/v1.php?";
-let publicUrl = "https://localhost/api/public/v1.php?";
+let url = "https://localhost/SystemSecurityAssignment/api/private/v1.php?";
+let publicUrl = "https://localhost/SystemSecurityAssignment/api/public/v1.php?";
+
 let media = "https://localhost/api/public/";
 
 /**

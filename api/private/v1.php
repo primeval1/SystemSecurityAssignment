@@ -14,6 +14,7 @@ if (!authenticate($_GET['token'],KEY,ISS,AUD)){
     echo "not authenticated";
     exit();
 }
+
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     switch ($type) {
 

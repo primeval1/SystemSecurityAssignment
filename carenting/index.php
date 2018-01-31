@@ -6,6 +6,7 @@ function isSecure()
         (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
         || $_SERVER['SERVER_PORT'] == 443;
 } ?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
